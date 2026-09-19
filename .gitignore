@@ -1,0 +1,9 @@
+# Ignorar todos los archivos de variable de entornos
+
+.env
+.env.*
+*.env
+
+
+# excepcion: no ignorar el archivo .env.example
+|.env.example
